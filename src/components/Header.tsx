@@ -11,9 +11,9 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Left side - Society and Institute info */}
         <div className="flex items-center space-x-4">
-          <img 
-            src={isolationLogo} 
-            alt="ISOlation Logo" 
+          <img
+            src="/public/isolation.png"
+            alt="ISOlation Logo"
             className="w-10 h-10 object-contain"
           />
           <div className="hidden md:block">

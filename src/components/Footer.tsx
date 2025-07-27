@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand section */}
           <div className="flex items-center space-x-3">
             <img
-              src={isolationLogo}
+              src="/public/isolation.png"
               alt="ISOlation Logo"
               className="w-8 h-8 object-contain filter brightness-0 invert"
             />
