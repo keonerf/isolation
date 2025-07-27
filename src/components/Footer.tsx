@@ -1,5 +1,4 @@
 import { Camera, Instagram, Facebook, Mail } from "lucide-react";
-import isolationLogo from "@/assets/isolation-logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
           {/* Brand section */}
           <div className="flex items-center space-x-3">
             <img
-              src="/public/isolation.png"
+              src="/isolation.png"
               alt="ISOlation Logo"
               className="w-8 h-8 object-contain filter brightness-0 invert"
             />

@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Camera, Menu, X } from "lucide-react";
 import { useState } from "react";
-import isolationLogo from "@/assets/isolation-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +11,7 @@ const Header = () => {
         {/* Left side - Society and Institute info */}
         <div className="flex items-center space-x-4">
           <img
-            src="/public/isolation.png"
+            src="/isolation.png"
             alt="ISOlation Logo"
             className="w-10 h-10 object-contain"
           />
