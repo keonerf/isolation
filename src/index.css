@@ -48,7 +48,7 @@
     --shadow-dramatic: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
     --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
     --shadow-focus: 0 0 0 3px hsl(0 0% 100% / 0.1);
-
+    
     /* Animation curves - camera-like movements */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-focus: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);

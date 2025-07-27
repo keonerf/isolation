@@ -1,4 +1,4 @@
-import { Camera, Instagram, Facebook, Mail } from "lucide-react";
+import { Camera, Instagram, Facebook, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
             <img
               src="/isolation.png"
               alt="ISOlation Logo"
-              className="w-8 h-8 object-contain filter brightness-0 invert"
+              className="w-8 h-8 object-contain"
             />
             <div>
               <h3 className="text-lg font-bold">ISOlation</h3>

@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight tracking-tight">
             ISO<span className="text-primary">lation</span>
           </h1>
-          
+
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
             Artistic Vision | Cinematic Precision
@@ -26,7 +26,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Where photography meets storytelling. Join the premier photography and videography society 
+            Where photography meets storytelling. Join the premier photography and videography society
             of Faculty of Technology, University of Delhi.
           </p>
 
@@ -36,7 +36,7 @@ const Hero = () => {
               Join Our Community
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            
+
             <Button variant="outline" size="lg" className="group">
               <Camera className="mr-2 w-5 h-5 group-hover:rotate-12 transition-transform" />
               View Gallery
@@ -49,18 +49,18 @@ const Hero = () => {
               <div className="flex justify-center mb-2">
                 <Camera className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground">200+</h3>
+              <h3 className="text-2xl font-bold text-foreground">50+</h3>
               <p className="text-muted-foreground">Active Members</p>
             </div>
-            
+
             <div className="text-center group hover:scale-105 transition-transform duration-300">
               <div className="flex justify-center mb-2">
                 <Film className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground">50+</h3>
+              <h3 className="text-2xl font-bold text-foreground">25+</h3>
               <p className="text-muted-foreground">Projects Completed</p>
             </div>
-            
+
             <div className="text-center group hover:scale-105 transition-transform duration-300">
               <div className="flex justify-center mb-2">
                 <Award className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" />
