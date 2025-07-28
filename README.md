@@ -1,69 +1,70 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Dependencies
 
-Currently, two official plugins are available:
+## Runtime Dependencies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Core React & Framework
+react (^18.3.1) - React library
+react-dom (^18.3.1) - React DOM rendering
+react-router-dom (^6.26.2) - Client-side routing
+@tanstack/react-query (^5.56.2) - Server state management
 
-## Expanding the ESLint configuration
+### UI Component Library (Radix UI)
+@radix-ui/react-accordion - Accordion components
+@radix-ui/react-alert-dialog - Modal dialogs
+@radix-ui/react-aspect-ratio - Aspect ratio containers
+@radix-ui/react-avatar - Avatar components
+@radix-ui/react-checkbox - Checkbox inputs
+@radix-ui/react-collapsible - Collapsible content
+@radix-ui/react-context-menu - Right-click menus
+@radix-ui/react-dialog - Modal dialogs
+@radix-ui/react-dropdown-menu - Dropdown menus
+@radix-ui/react-hover-card - Hover cards
+@radix-ui/react-label - Form labels
+@radix-ui/react-menubar - Menu bars
+@radix-ui/react-navigation-menu - Navigation menus
+@radix-ui/react-popover - Popover components
+@radix-ui/react-progress - Progress bars
+@radix-ui/react-radio-group - Radio button groups
+@radix-ui/react-scroll-area - Custom scroll areas
+@radix-ui/react-select - Select dropdowns
+@radix-ui/react-separator - Visual separators
+@radix-ui/react-slider - Range sliders
+@radix-ui/react-slot - Slot components
+@radix-ui/react-switch - Toggle switches
+@radix-ui/react-tabs - Tab components
+@radix-ui/react-toast - Toast notifications
+@radix-ui/react-toggle - Toggle buttons
+@radix-ui/react-toggle-group - Toggle button groups
+@radix-ui/react-tooltip - Tooltips
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Form Handling
+react-hook-form (^7.53.0) - Form management
+@hookform/resolvers (^3.9.0) - Form validation resolvers
+zod (^3.23.8) - Schema validation
+input-otp (^1.2.4) - OTP input components
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Styling & UI
+tailwind-merge (^2.5.2) - Tailwind class merging utility
+tailwindcss-animate (^1.0.7) - Tailwind animations
+class-variance-authority (^0.7.1) - Component variant management
+clsx (^2.1.1) - Conditional class names
+next-themes (^0.3.0) - Theme management
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### UI Enhancement
+lucide-react (^0.462.0) - Icon library
+cmdk (^1.0.0) - Command palette
+sonner (^1.5.0) - Toast notifications
+vaul (^0.9.3) - Drawer component
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Date & Time
+date-fns (^3.6.0) - Date utility functions
+react-day-picker (^8.10.1) - Date picker components
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Layout & Interaction
+react-resizable-panels (^2.1.3) - Resizable panel layouts
+embla-carousel-react (^8.3.0) - Carousel components
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Data Visualization
+recharts (^2.12.7) - Chart and graph components
