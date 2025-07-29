@@ -11,7 +11,7 @@ const Gallery = () => {
       category: "Documentary"
     },
     {
-      type: "videography", 
+      type: "videography",
       title: "Cultural Fest 2024",
       description: "A cinematic journey through our annual cultural celebration.",
       category: "Event Coverage"
@@ -51,9 +51,9 @@ const Gallery = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Our <span className="text-primary">Portfolio</span>
             </h2>
-            <div className="w-24 h-px bg-primary mx-auto mb-6"></div>
+            <div className="w-50 h-px bg-primary mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Explore our diverse collection of photography and videography work that showcases 
+              Explore our diverse collection of photography and videography work that showcases
               the talent and creativity of our members.
             </p>
           </div>
@@ -61,7 +61,7 @@ const Gallery = () => {
           {/* Portfolio grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {portfolioItems.map((item, index) => (
-              <Card 
+              <Card
                 key={index}
                 className="group overflow-hidden bg-card border border-border hover:shadow-dramatic transition-all duration-500 hover:scale-105"
               >
@@ -74,7 +74,7 @@ const Gallery = () => {
                       <Play className="w-16 h-16 text-primary-foreground/30" />
                     )}
                   </div>
-                  
+
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-primary-foreground/20">

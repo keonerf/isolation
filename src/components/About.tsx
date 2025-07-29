@@ -35,7 +35,7 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               About <span className="text-primary">ISOlation</span>
             </h2>
-            <div className="w-24 h-px bg-primary mx-auto mb-6"></div>
+            <div className="w-50 h-px bg-primary mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Founded with a vision to nurture creative minds, ISOlation stands as the premier photography
               and videography society at Faculty of Technology, University of Delhi. We believe in the power
