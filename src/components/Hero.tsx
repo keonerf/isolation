@@ -21,7 +21,7 @@ const Hero = () => {
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
-            Artistic Vision | Cinematic Precision
+            Artistic Vision | Optical Precision
           </p>
 
           {/* Description */}

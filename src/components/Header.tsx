@@ -35,7 +35,10 @@ const Header = () => {
           <Button variant="ghost" className="text-foreground hover:text-primary">
             Team
           </Button>
-          <Button variant="cinematic" className="ml-4">
+          <Button
+            variant="cinematic"
+            className="ml-4 bg-white text-black hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300"
+          >
             Join Us
           </Button>
         </nav>
@@ -67,7 +70,10 @@ const Header = () => {
             <Button variant="ghost" className="w-full justify-start text-foreground">
               Team
             </Button>
-            <Button variant="cinematic" className="w-full mt-4">
+            <Button
+              variant="cinematic"
+              className="w-full mt-4 bg-white text-black hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300"
+            >
               Join Us
             </Button>
           </nav>
