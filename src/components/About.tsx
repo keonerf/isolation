@@ -37,8 +37,8 @@ const About = () => {
             </h2>
             <div className="w-24 h-px bg-primary mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Founded with a vision to nurture creative minds, ISOlation stands as the premier photography 
-              and videography society at Faculty of Technology, University of Delhi. We believe in the power 
+              Founded with a vision to nurture creative minds, ISOlation stands as the premier photography
+              and videography society at Faculty of Technology, University of Delhi. We believe in the power
               of visual storytelling to inspire, educate, and connect communities.
             </p>
           </div>
@@ -46,7 +46,7 @@ const About = () => {
           {/* Features grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             {features.map((feature, index) => (
-              <Card 
+              <Card
                 key={index}
                 className="p-8 bg-card border border-border hover:shadow-soft transition-all duration-300 hover:scale-105 group"
               >
@@ -70,13 +70,13 @@ const About = () => {
           </div>
 
           {/* Mission statement */}
-          <div className="bg-gradient-subtle rounded-2xl p-8 md:p-12 text-center">
+          <div className="bg-muted rounded-2xl p-8 md:p-12 text-center border border-border shadow-soft">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
               Our Mission
             </h3>
             <p className="text-lg text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed">
-              To create a platform where aspiring photographers and videographers can explore their creativity, 
-              develop technical skills, and contribute to the rich cultural tapestry of our institution. 
+              To create a platform where aspiring photographers and videographers can explore their creativity,
+              develop technical skills, and contribute to the rich cultural tapestry of our institution.
               We strive to document moments, preserve memories, and tell stories that matter.
             </p>
             <Button variant="cinematic" size="lg">
